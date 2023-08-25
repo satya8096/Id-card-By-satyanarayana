@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Edu+NSW+ACT+Foundation:wght@700&family=Itim&family=Kalam:wght@400;700&family=Kanit:wght@300&family=Laila:wght@400;700&family=Libre+Baskerville&family=Merriweather&family=Niconne&family=Oleo+Script&family=Shrikhand&family=Signika+Negative:wght@600;700&family=Ysabeau+Infant:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.2px;
+}
+body{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(45deg,#258, springgreen,#258);
+}
+.id-container{
+    position: relative;
+    height: 460px;
+    width: 295px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 6px;
+}
+.tech-heading{
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+.main-label{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading-container{
+    background-color: blue;
+    border-radius: 6px 6px 0px 0px;
+}
+.main-label h2{
+    color: white;
+    height: 45px;
+    font-size: 48px;
+}
+.main-label img{
+    width: 73px;
+}
+.clg-name-container{
+    text-align: center;
+    color: white;
+    padding: 4px 0px;
+}
+.clg-name{
+    font-size: 15px;
+    margin: 3px 0px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.tag-line1{
+    font-size: 10px;
+    margin: 3px 0px;
+}
+.tag-line2{
+    font-size: 8.5px;
+    margin: 3px 0px;
+}
+.photo-container{
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.course{
+    position: absolute;
+    padding: 15px 5px;
+    top: 180px;
+    left: 25px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+.photo-container .photo{
+    width: 100px;
+    height: 110px;
+    border:  3px solid blue;
+}
+.photo-container .name{
+    padding: 1px 0px;
+    color: red;
+}
+.photo-container .year{
+    padding: 3px 0px;
+    color: red;
+}
+.photo-container .branch{
+    color: blue;
+}
+.bar-code{
+    padding: 3px 0px;
+    width: 230px;
+    height: 50px;
+}
+.principal{
+    padding: 10px;
+}
+.principal-name{
+    top: 390px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 30px;
+}
+.last-footer{
+    margin-top: 15px;
+    height: 33px;
+    border-radius: 0px 0px 6px 6px;
+    background-color: blue;
+}
